@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var tvResult: TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
+        super.onCreate(savedIn  stanceState)
         setContentView(R.layout.activity_main)
 
         etFullName = findViewById(R.id.etFullName)
